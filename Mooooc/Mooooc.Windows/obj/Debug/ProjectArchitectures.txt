@@ -1,0 +1,2 @@
+c:\users\atef\documents\visual studio 2015\Projects\Mooooc\Mooooc\Mooooc.Windows\Mooooc.Windows.csproj;neutral
+c:\users\atef\documents\visual studio 2015\Projects\Mooooc\Mooooc\Mooooc\Mooooc.csproj;neutral

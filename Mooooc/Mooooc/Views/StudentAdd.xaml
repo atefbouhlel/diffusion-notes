@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mooooc.Views.StudentAdd">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="12*"/>
+      <RowDefinition Height="1*"/>
+    </Grid.RowDefinitions>
+  <StackLayout  VerticalOptions="Center" Padding="60" Grid.Row="0">
+    <Entry x:Name="Username" Placeholder="username" ></Entry>
+    <Entry x:Name="LastName" Placeholder="LastName" ></Entry>
+    <Entry x:Name="FirstName" Placeholder="FirstName" ></Entry>
+    <Entry x:Name="Password" Placeholder="Password" ></Entry>
+    <Button Text="Ajouter" Margin="40,40" FontSize="15" BackgroundColor="Maroon" TextColor="White" Clicked="Button_OnClicked"></Button>
+  </StackLayout>
+
+    <StackLayout Grid.Row="1" Orientation="Horizontal" HeightRequest="10" HorizontalOptions="Center">
+      <Button Text="Home" FontSize="15" BackgroundColor="Maroon" TextColor="White" Clicked="AccueilPage_Button"></Button>
+      <Button Text="Students" FontSize="15" BackgroundColor="Maroon" TextColor="White" Clicked="StudentsPage_Button"></Button>
+      <Button Text="Teachers" FontSize="15" BackgroundColor="Maroon" TextColor="White" Clicked="TeachersPage_Button"></Button>
+      <Button Text="Courses" FontSize="15" BackgroundColor="Maroon" TextColor="White" Clicked="CoursesPage_Button"></Button>
+      <Button Text="Logout" FontSize="15" BackgroundColor="Maroon" TextColor="White" Clicked="LogOut_Button"></Button>
+    </StackLayout>
+  </Grid>
+</ContentPage>

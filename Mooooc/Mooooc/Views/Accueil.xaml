@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mooooc.Views.Accueil">
+  
+  <StackLayout  VerticalOptions="Center" Padding="60"  >
+    <Label Text="Home Page"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"
+           FontSize="30"
+           TextColor="Maroon"
+           Margin="10,20"
+           />
+
+    <Label x:Name="UserName" VerticalOptions="Center"
+           HorizontalOptions="Center"
+           FontSize="30"
+           TextColor="Maroon"
+           Margin="10,20"
+           />
+    <Button x:Name="DegreesList" WidthRequest="180" IsVisible="False" Text="My Degrees" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="ShowDegrees_Button" />
+    <Button x:Name="StudentAdd" WidthRequest="180" IsVisible="False" Text="Add a student" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="AddStudent_Button" />
+    <Button x:Name="StudentsList" WidthRequest="180" IsVisible="False" Text="Students List" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="ShowStudents_Button" />
+    <Button x:Name="TeacherAdd" WidthRequest="180" IsVisible="False" Text="Add a Teacher" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="AddTeacher_Button" />
+    <Button x:Name="TeachersList" WidthRequest="180" IsVisible="False" Text="Teachers List" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="ShowTeachers_Button" />
+    <Button x:Name="CourseAdd" WidthRequest="180" IsVisible="False" Text="Add a Course" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="AddCourse_Button" />
+    <Button x:Name="CoursesList" WidthRequest="180" IsVisible="False" Text="Courses List" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="ShowCourses_Button" />
+    <Button Text="Logout" WidthRequest="180" FontSize="15" BackgroundColor="Maroon" HorizontalOptions="Center" TextColor="White" Clicked="LogOut_Button"></Button>
+    </StackLayout>
+</ContentPage>
